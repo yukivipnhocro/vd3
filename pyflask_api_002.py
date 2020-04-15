@@ -10,6 +10,7 @@ from flask import jsonify
 
 
 app = Flask(__name__)
+db_connect = create_engine('sqlite:///dsNhanVien.db')
 
 @app.route('/')
 def  index():
