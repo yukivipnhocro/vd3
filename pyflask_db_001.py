@@ -34,4 +34,4 @@ class Parameters(Resource):
         return "Day la tam so " + firstParam
 
 api = Api(app)
-api.add_resource(Parameters, '/parameters') # Route_1
+api.add_resource(Parameters, '/parameters/<firstParam>') # Route_1
