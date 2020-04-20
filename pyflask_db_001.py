@@ -45,6 +45,8 @@ def giaiptb1():
         str = "VSN"
     elif a != 0:
         str = "nghiem x=" +(-b/a)
+    else:
+        str = "KoCoN"
     return str
 
 class Parameters(Resource):
